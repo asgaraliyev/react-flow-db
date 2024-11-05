@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-flow__handle {
+  @apply w-3 h-3 bg-blue-500;
+}
+
+.react-flow__handle-top {
+  @apply top-0 -translate-y-1/2;
+}
+
+.react-flow__handle-bottom {
+  @apply bottom-0 translate-y-1/2;
+}
+
+.react-flow__edge-path {
+  @apply stroke-2;
+}
+
+.react-flow__controls {
+  @apply shadow-lg rounded-lg overflow-hidden;
+}
+
+.react-flow__controls-button {
+  @apply border-gray-200 hover:bg-gray-100 transition-colors duration-200;
+}
+
+.react-flow__minimap {
+  @apply rounded-lg shadow-lg overflow-hidden;
+}
+
+.react-flow__attribution {
+  @apply hidden;
+}
